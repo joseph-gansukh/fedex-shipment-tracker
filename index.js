@@ -15,7 +15,7 @@ fedex.track({
     SelectionDetails: {
         PackageIdentifier: {
             Type: 'TRACKING_NUMBER_OR_DOORTAG',
-            Value: '7620543744'
+            Value: '7620543302'
         }
     }
 }, function(err, res) {
@@ -23,5 +23,6 @@ fedex.track({
         return console.log(err);
     }
 
-    console.log(res.CompletedTrackDetails[0].TrackDetails);
+    // console.log(`${res.CompletedTrackDetails[0].TrackDetails[0].StatusDetail.Description}`);
+    console.log(res.CompletedTrackDetails[0].TrackDetails[0]);
 });
