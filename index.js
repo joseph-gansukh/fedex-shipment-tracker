@@ -23,6 +23,6 @@ fedex.track({
         return console.log(err);
     }
 
-    // console.log(`${res.CompletedTrackDetails[0].TrackDetails[0].StatusDetail.Description}`);
+    console.log(`${res.CompletedTrackDetails[0].TrackDetails[0].StatusDetail.Description}`);
     console.log(res.CompletedTrackDetails[0].TrackDetails[0]);
 });
