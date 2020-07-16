@@ -25,4 +25,5 @@ fedex.track({
 
     console.log(res.CompletedTrackDetails[0].TrackDetails[0].StatusDetail.Description);
     console.log(res.CompletedTrackDetails[0].TrackDetails[0]);
+    console.log(res.CompletedTrackDetails[0].TrackDetails[0].StatusDetail.Events);
 });
