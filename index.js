@@ -4,7 +4,7 @@ var fedex = new fedexAPI({
     environment: 'sandbox', // or live
     debug: true,
     key: '9doDUqleJG8uX9Rx',
-    password: 'sneHJVXzhx5Kcg8LGNM61Zgex',
+  //  password: 'sneHJVXzhx5Kcg8LGNM61Zgex',
     account_number: '510087780',
     meter_number: '114087373',
     imperial: true // set to false for metric
