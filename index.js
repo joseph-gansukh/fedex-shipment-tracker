@@ -10,7 +10,7 @@ var fedex = new fedexAPI({
     imperial: true // set to false for metric
 });
 
-
+// Track an array of shipments 
 fedex.track({
     SelectionDetails: {
         PackageIdentifier: {
